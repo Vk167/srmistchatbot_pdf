@@ -1,0 +1,34 @@
+{
+  "total_internal_urls": 871,
+  "total_external_urls": 184,
+  "total_failed_urls": 600,
+  "total_discovered": 1055,
+  "total_document_urls": 196,
+  "total_pdf_urls": 169,
+  "total_html_urls": 75,
+  "max_depth_reached": 3,
+  "urls_by_depth": {
+    "0": 1,
+    "1": 176,
+    "2": 693,
+    "3": 1
+  },
+  "documents_by_type": {
+    "pdf": 169,
+    "xlsx": 2,
+    "xls": 13,
+    "doc": 5,
+    "docx": 7
+  },
+  "documents_by_section": {
+    "research": 9,
+    "admission": 2,
+    "student": 4,
+    "academic": 56,
+    "campus": 1,
+    "examination": 1,
+    "alumni": 1,
+    "syllabus": 3
+  },
+  "uncategorized_documents": 119
+}
