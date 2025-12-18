@@ -67,14 +67,16 @@ CONFIG = {
     # RAG Chatbot settings
     "ragchatbot": {
         "top_k": 10,  # number of relevant documents to retrieve
-        "model_name":'models/gemini-2.0-flash'
+        "model_name":'models/gemini-2.5-flash'
     },
 
     # MONGODB Config
     "mongodb":{
         'host': 'localhost',
+        # 'host': 'mongodb+srv://user:user@cluster0.z5cbckx.mongodb.net/',
         'port': 27017,
-        'database': 'srmistpdfdb'
+        'database': 'srmistpdfdb',
+        # 'database': 'abc'
     }
 }
 

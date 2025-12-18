@@ -14,7 +14,7 @@ class GeminiLLM:
     def __init__(
             self,
             api_key: str,
-            model_name: str = "models/gemini-2.0-flash",
+            model_name: str = "models/gemini-2.5-flash",
             max_output_tokens: int = 8192,
             temperature: float = 0.7,
             top_p: float = 0.95,
@@ -171,7 +171,7 @@ def setup_gemini_llm(
     try:
         # Default configuration
         default_config = {
-            "model_name": "models/gemini-2.0-flash",
+            "model_name": "models/gemini-2.5-flash",
             "max_output_tokens": 8192,
             "temperature": 0.7,
             "top_p": 0.95,
